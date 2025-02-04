@@ -1,5 +1,3 @@
-# Discord Multi Bot
-
 A versatile Discord bot that offers various features including music playback, giveaways, and content creation.
 
 ## Installation
@@ -77,7 +75,7 @@ python main.py
 |---------|-------------|
 | `!play <song/url>` | Plays a song or adds it to queue |
 
-![Music Commands](https://i.imgur.com/example1.png)
+![Music Commands](https://github.com/user-attachments/assets/212b7080-43a9-4a52-9ede-5d68362ddf5c)
 
 ### Giveaway Commands 🎉
 | Command | Description |
@@ -92,7 +90,7 @@ Duration format:
 
 Example: `!giveaway 1h PlayStation 5`
 
-![Giveaway Commands](https://i.imgur.com/example2.png)
+![Giveaway Commands](https://github.com/user-attachments/assets/8aafc146-704e-4fe4-b610-117dfd3e90fc)
 
 ### Event Creation Commands 📅
 | Command | Description |
@@ -106,7 +104,11 @@ Duration format:
 
 Example: `!createevent 1d2h30m Movie Night`
 
-![Event Creation Commands](https://i.imgur.com/example3.png)
+![Event Creation Commands](https://github.com/user-attachments/assets/68d9e6b2-7726-4c92-811f-74f8230b5913)
+
+![Event Creation Commands2](https://github.com/user-attachments/assets/8481a12f-fddd-4e08-95d3-77e7d408fca9)
+
+![Event Creation Commands3](https://github.com/user-attachments/assets/6b3803fe-2641-4d0f-93f2-c5ce131ecbd2)
 
 ## Add the Bot to Your Server
 
