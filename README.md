@@ -120,15 +120,4 @@ Want to add **Discord Multi Bot** to your server? Click the link below and grant
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-This means you can:
-- Use this software for commercial purposes
-- Modify the source code
-- Distribute the software
-- Patent the software
-
-But you must:
-- Include the original source code when you distribute
-- Document any changes you make
-- Use the same license for any derivative works
-- State significant changes made to the software
-
+---
