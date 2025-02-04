@@ -2,3 +2,4 @@ FFmpeg/
 .env
 __pycache__/
 *.pyc
+FETCH_HEAD
