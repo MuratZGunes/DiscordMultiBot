@@ -730,7 +730,7 @@ class Music(commands.Cog):
             embed = nextcord.Embed(title="⚠️ Error", description="Bot is not in a voice channel.", color=0xFF0000)
             await ctx.send(embed=embed)
 
-    @commands.command(name="p", aliases=["play"])
+    @commands.command(name="p", aliases=["play", "song"])
     async def p(self, ctx, *, search: str):
         search = search.strip()
         command_channels[ctx.guild.id] = ctx.channel
