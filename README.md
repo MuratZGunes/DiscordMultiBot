@@ -70,6 +70,50 @@ python main.py
 - Content creation tools
 - And more...
 
+## Commands
+
+### Music Commands 🎵
+| Command | Description |
+|---------|-------------|
+| `!play <song/url>` | Plays a song or adds it to queue |
+
+![Music Commands](https://i.imgur.com/example1.png)
+
+### Giveaway Commands 🎉
+| Command | Description |
+|---------|-------------|
+| `!giveaway <duration> <prize>` | Starts a new giveaway |
+
+Duration format:
+- `s`: seconds
+- `m`: minutes
+- `h`: hours
+- `d`: days
+
+Example: `!giveaway 1h PlayStation 5`
+
+![Giveaway Commands](https://i.imgur.com/example2.png)
+
+### Event Creation Commands 📅
+| Command | Description |
+|---------|-------------|
+| `!createevent <duration> <event name>` | Creates a new event |
+
+Duration format:
+- `d`: days
+- `h`: hours
+- `m`: minutes
+
+Example: `!createevent 1d2h30m Movie Night`
+
+![Event Creation Commands](https://i.imgur.com/example3.png)
+
+## Add the Bot to Your Server
+
+Want to add **Discord Multi Bot** to your server? Click the link below and grant the necessary permissions:
+
+[Add to Discord](https://discord.com/oauth2/authorize?client_id=1334217291679924245&permissions=8&integration_type=0&scope=bot)
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
@@ -84,4 +128,5 @@ But you must:
 - Include the original source code when you distribute
 - Document any changes you make
 - Use the same license for any derivative works
-- State significant changes made to the software 
+- State significant changes made to the software
+
