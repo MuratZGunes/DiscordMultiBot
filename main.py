@@ -1,11 +1,11 @@
 import nextcord
 from nextcord.ext import commands
 import os
-from dotenv import load_dotenv  # .env dosyasını okumak için
+from dotenv import load_dotenv  # for reading .env file
 import asyncio
 import traceback  # Added for error details
 
-# .env dosyasını yükle
+# Load .env file
 load_dotenv()
 
 # Required permissions
@@ -64,7 +64,7 @@ async def on_voice_state_update(member, before, after):
             ))
 
 # Run the bot
-TOKEN = os.getenv('DISCORD_TOKEN')  # Token'ı .env get from file
+TOKEN = os.getenv('DISCORD_TOKEN')  # Get token from .env file
 if not TOKEN:
     raise ValueError("Please define the DISCORD_TOKEN variable in the .env file!")
     

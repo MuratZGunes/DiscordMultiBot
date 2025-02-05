@@ -292,7 +292,7 @@ class SongControlView(nextcord.ui.View):
         await interaction.message.edit(view=self)
 
     async def on_timeout(self):
-        # Eğer bu view'deki şarkı artık oynatılmıyorsa butonları devre dışı bırak
+        # If the song in this view is no longer playing, disable the buttons
         if current_song.get(self.guild_id, {}).get("song_id") != self.song_id:
             for item in self.children:
                 item.disabled = True
@@ -475,7 +475,7 @@ class Music(commands.Cog):
         try:
             source = nextcord.FFmpegPCMAudio(song["stream_url"], executable="ffmpeg", **FFMPEG_OPTIONS)
         except Exception:
-            await ctx.send("FFmpeg ile ilgili bir hata oluştu. Lütfen FFmpeg'in yüklü ve PATH'e ekli olduğundan emin ol.")
+            await ctx.send("An error occurred with FFmpeg. Please make sure FFmpeg is installed and added to PATH.")
             return
 
         def after_playing(error):

@@ -110,6 +110,21 @@ Example: `!createevent 1d2h30m Movie Night`
 
 ![Event Creation Commands3](https://github.com/user-attachments/assets/6b3803fe-2641-4d0f-93f2-c5ce131ecbd2)
 
+### RPS Commands ✌️
+| Command | Description |
+|---------|-------------|
+| `!rps` | Start a two-player Rock Paper Scissors game |
+
+Game Features:
+- Play between two players
+- Easy selection with buttons
+- Real-time result display
+- Option to play again
+
+![RPS Game Start](https://github.com/user-attachments/assets/rps-start)
+![RPS Game Progress](https://github.com/user-attachments/assets/rps-progress)
+![RPS Game Result](https://github.com/user-attachments/assets/rps-result)
+
 ## Add the Bot to Your Server
 
 Want to add **Discord Multi Bot** to your server? Click the link below and grant the necessary permissions:
