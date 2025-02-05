@@ -121,9 +121,11 @@ Game Features:
 - Real-time result display
 - Option to play again
 
-![RPS Game Start](https://github.com/user-attachments/assets/rps-start)
-![RPS Game Progress](https://github.com/user-attachments/assets/rps-progress)
-![RPS Game Result](https://github.com/user-attachments/assets/rps-result)
+![image](https://github.com/user-attachments/assets/6f4d2387-728d-4bf8-b549-21371be93c7a)
+
+![image](https://github.com/user-attachments/assets/57cdb58f-89e5-43aa-880f-ef0a6f6d2673)
+
+![image](https://github.com/user-attachments/assets/6bc48f94-3487-4cb1-b71f-4c51130bed2d)
 
 ## Add the Bot to Your Server
 
