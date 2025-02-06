@@ -127,6 +127,35 @@ Game Features:
 
 ![image](https://github.com/user-attachments/assets/6bc48f94-3487-4cb1-b71f-4c51130bed2d)
 
+### Translation Commands 🌐
+| Command | Description |
+|---------|-------------|
+| `!translate <target_language> <text>` | Translates text to the specified language |
+
+Features:
+- Automatic source language detection
+- Support for multiple languages
+- Real-time translation
+- Detailed output with language names
+
+Examples:
+```
+!translate spanish Hello, how are you?
+!translate japanese Good morning
+!translate turkish I love programming
+```
+
+Supported Languages:
+- 🇬🇧 English (en)
+- 🇪🇸 Spanish (es)
+- 🇫🇷 French (fr)
+- 🇩🇪 German (de)
+- 🇯🇵 Japanese (ja)
+- 🇨🇳 Chinese (zh)
+- 🇰🇷 Korean (ko)
+- 🇹🇷 Turkish (tr)
+And many more...
+
 ## Add the Bot to Your Server
 
 Want to add **Discord Multi Bot** to your server? Click the link below and grant the necessary permissions:
