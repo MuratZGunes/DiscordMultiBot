@@ -156,6 +156,9 @@ Supported Languages:
 - 🇹🇷 Turkish (tr)
 And many more...
 
+![image](https://github.com/user-attachments/assets/ee5417ce-a269-4e14-ae19-a2f6b095d0e0)
+
+
 ## Add the Bot to Your Server
 
 Want to add **Discord Multi Bot** to your server? Click the link below and grant the necessary permissions:
