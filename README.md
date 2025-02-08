@@ -156,8 +156,28 @@ Supported Languages:
 - 🇹🇷 Turkish (tr)
 And many more...
 
-![image](https://github.com/user-attachments/assets/ee5417ce-a269-4e14-ae19-a2f6b095d0e0)
+### Fun Commands 🎮
+| Command | Description |
+|---------|-------------|
+| `!roll [number]` | Rolls a dice (default: 6-sided) |
+| `!choose <option1> <option2> ...` | Randomly selects from given options |
+| `!flip` | Flips a coin |
+| `!joke` | Tells a random joke |
+| `!8ball <question>` | Gives Magic 8-ball answers |
+| `!cat` | Sends a random cat photo |
+| `!dog` | Sends a random dog photo |
+| `!fact` | Shares a random interesting fact |
+| `!emoji` | Sends a random emoji |
+| `!alarm HH:MM` | Sets an alarm for specified time via DM |
+| `!lovemeter <name>` | Shows how much the specified person loves you |
 
+Example Usage:
+```
+!roll 20          # Rolls a 20-sided dice
+!choose pizza hamburger pasta  # Randomly selects one
+!alarm 14:30      # Sets an alarm for 14:30
+!lovemeter John   # Shows how much John loves you
+```
 
 ## Add the Bot to Your Server
 
