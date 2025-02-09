@@ -66,6 +66,7 @@ python main.py
 - Music playback (YouTube and Spotify support)
 - Giveaway system
 - Content creation tools
+- Game deals tracking (Epic Games and Steam)
 - And more...
 
 ## Commands
@@ -110,16 +111,50 @@ Example: `!createevent 1d2h30m Movie Night`
 
 ![Event Creation Commands3](https://github.com/user-attachments/assets/6b3803fe-2641-4d0f-93f2-c5ce131ecbd2)
 
+### Game Deals Commands 🎮
+| Command | Description |
+|---------|-------------|
+| `!gamedeals` or `!deals` | Shows current game deals from Epic Games and Steam |
+
+Features:
+- Automatically tracks free games on Epic Games Store
+- Lists top discounted games on Steam
+- Shows prices in both USD and TRY
+- Auto-updates every 24 hours
+- Posts updates in dedicated 'game-deals' channel
+- Manual command for instant deal checks
+
+Example Output:
+```
+🎮 Current Game Deals
+💰 USD/TRY: 31.50₺
+🔄 Updates: Daily
+⏰ Last Check: 15:30 06.02.2024
+
+🎁 EPIC - [Game Name]
+GET IT FREE
+[View on Epic Games Store]
+
+🔥 STEAM - [Game Name]
+Discount: 75%
+~$59.99~ $14.99 = 472.19₺
+[View on Steam]
+```
+
 ### RPS Commands ✌️
 | Command | Description |
 |---------|-------------|
-| `!rps` | Start a two-player Rock Paper Scissors game |
+| `!playrps` or `!rps_game` | Start a two-player Rock Paper Scissors game |
 
 Game Features:
 - Play between two players
-- Easy selection with buttons
-- Real-time result display
-- Option to play again
+- Easy selection with buttons (🪨 Rock, 📄 Paper, ✂️ Scissors)
+- Real-time result display with emojis
+- Private choice selection for each player
+- Play again option after each game
+- 60-second timeout for inactive games
+- Prevents same player from making multiple choices
+- Shows player mentions in results
 
 ![image](https://github.com/user-attachments/assets/6f4d2387-728d-4bf8-b549-21371be93c7a)
 

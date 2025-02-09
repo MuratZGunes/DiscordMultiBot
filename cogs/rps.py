@@ -124,7 +124,7 @@ class RPS(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command(name="rps", aliases=["play rps"])
+    @commands.command(name="playrps", aliases=["rps_game"])
     async def two_player_rps(self, ctx):
         """Starts a two-player rock-paper-scissors game."""
         embed = nextcord.Embed(

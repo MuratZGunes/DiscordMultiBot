@@ -3,3 +3,4 @@ FFmpeg/
 __pycache__/
 *.pyc
 FETCH_HEAD
+data/
