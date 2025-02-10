@@ -191,6 +191,45 @@ Supported Languages:
 - 🇹🇷 Turkish (tr)
 And many more...
 
+### Word Game Commands 🎯
+| Command | Description |
+|---------|-------------|
+| `!kelime` | Shows help message for word game |
+| `!kelime başlat` | Starts a new word game |
+
+Game Features:
+- Chain words where each word must start with the last letter of the previous word
+- Turkish dictionary validation through TDK API
+- Automatic Turkish character handling
+- Used word tracking
+- Real-time feedback with reactions
+- Persistent game state across bot restarts
+- Dedicated game channels with auto-setup
+- Multi-server support
+
+Game Rules:
+1. Each word must start with the last letter of the previous word
+2. Words must be valid Turkish words (checked via TDK dictionary)
+3. Words cannot be repeated in the same game
+4. No need to use any prefix, just type the word
+5. Bot provides instant feedback with reactions
+
+Example Gameplay:
+```
+Bot: merhaba
+Player 1: araba
+Player 2: araç
+Player 3: çamur
+...
+```
+
+Channel Setup:
+- Create a channel with "kelime-türetme" in its name
+- Bot will automatically detect and set it up
+- Or use any channel and start the game with `!kelime başlat`
+
+![Word Game Commands](https://github.com/user-attachments/assets/9b3803fe-2641-4d0f-93f2-c5ce131ecbd2)
+
 ### Fun Commands 🎮
 | Command | Description |
 |---------|-------------|

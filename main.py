@@ -66,6 +66,15 @@ async def on_voice_state_update(member, before, after):
 # Run the bot
 TOKEN = os.getenv('DISCORD_TOKEN')  # Get token from .env file
 if not TOKEN:
-    raise ValueError("Please define the DISCORD_TOKEN variable in the .env file!")
-    
-bot.run(TOKEN) 
+    raise ValueError("DISCORD_TOKEN not found! Please check the .env file.")
+elif not TOKEN.strip():
+    raise ValueError("DISCORD_TOKEN is empty! Please enter a valid token.")
+
+print("Token found, starting the bot...")
+try:
+    bot.run(TOKEN.strip())  # Remove any whitespace
+except nextcord.LoginFailure:
+    print("Invalid token! Please get the correct token from the Discord Developer Portal and add it to the .env file.")
+except Exception as e:
+    print(f"An unexpected error occurred: {str(e)}")
+    traceback.print_exc()
