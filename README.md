@@ -198,7 +198,7 @@ And many more...
 | `!kelime başlat` | Starts a new word game |
 
 Game Features:
-- Chain words where each word must start with the last letter of the previous word
+- Each word forms a chain by starting with the last letter of the previous word
 - Turkish dictionary validation through TDK API
 - Automatic Turkish character handling
 - Used word tracking
