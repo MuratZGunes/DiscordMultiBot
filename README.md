@@ -228,7 +228,7 @@ Channel Setup:
 - Bot will automatically detect and set it up
 - Or use any channel and start the game with `!kelime başlat`
 
-![Word Game Commands](https://github.com/user-attachments/assets/9b3803fe-2641-4d0f-93f2-c5ce131ecbd2)
+![Ekran görüntüsü 2025-02-10 170346](https://github.com/user-attachments/assets/248ddeba-94e2-4e1d-aac0-479461dc0602)
 
 ### Fun Commands 🎮
 | Command | Description |
