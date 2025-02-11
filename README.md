@@ -330,8 +330,8 @@ API Setup:
 GEMINI_AI_API_URL=your_gemini_api_url_here
 GEMINI_AI_API_KEY=your_gemini_api_key_here
 ```
+![AI Commands](https://github.com/user-attachments/assets/b2f1f6ef-6d93-4abc-a7c0-383817d7d204)
 
-![AI Commands](https://github.com/user-attachments/assets/ai-command-example.png)
 
 ## Add the Bot to Your Server
 
