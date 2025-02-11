@@ -301,6 +301,38 @@ Last update: 6 February 2024, 15:30 UTC
 
 ![Currency Commands](https://github.com/user-attachments/assets/6bc48f94-3487-4cb1-b71f-4c51130bed2d)
 
+### AI Commands 🤖
+| Command | Description |
+|---------|-------------|
+| `!ai <question>` | Ask any question to the AI powered by Google Gemini |
+
+Features:
+- Powered by Google Gemini AI
+- Smart context awareness for gaming-related questions
+- Friendly and casual conversation style
+- Automatic message splitting for long responses
+- Colorful embed responses with random themes
+- Helpful for game tips, strategies, and general knowledge
+- Real-time response processing
+- Error handling with user-friendly messages
+
+Example Usage:
+```
+!ai What's the best strategy for Minecraft early game?
+!ai Can you explain the lore of Dark Souls?
+!ai What are the current meta weapons in Fortnite?
+```
+
+API Setup:
+1. Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Add your Gemini API credentials to your `.env` file:
+```env
+GEMINI_AI_API_URL=your_gemini_api_url_here
+GEMINI_AI_API_KEY=your_gemini_api_key_here
+```
+
+![AI Commands](https://github.com/user-attachments/assets/ai-command-example.png)
+
 ## Add the Bot to Your Server
 
 Want to add **Discord Multi Bot** to your server? Click the link below and grant the necessary permissions:
