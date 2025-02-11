@@ -253,6 +253,54 @@ Example Usage:
 !lovemeter John   # Shows how much John loves you
 ```
 
+### Currency Commands 💰
+| Command | Description |
+|---------|-------------|
+| `eur` or `euro` | Shows EUR/USD exchange rate |
+| `gbp` or `pound` | Shows GBP/USD exchange rate |
+| `jpy` or `yen` | Shows JPY/USD exchange rate |
+| `try` or `lira` | Shows TRY/USD exchange rate |
+| `gold` | Shows Gold price in USD (per ounce and gram) |
+| `btc` or `bitcoin` | Shows Bitcoin/USD exchange rate |
+| `eth` or `ethereum` | Shows Ethereum/USD exchange rate |
+| `xrp` or `ripple` | Shows Ripple/USD exchange rate |
+| `usdt` or `tether` | Shows Tether/USD exchange rate |
+
+Features:
+- No prefix needed, just type the currency (e.g., "euro")
+- Real-time exchange rates for fiat currencies, cryptocurrencies, and gold
+- All rates shown in USD
+- Last update time in UTC
+- Colorful and emoji-supported display
+- Integration with ExchangeRate API, CoinGecko, and GoldAPI
+
+API Setup:
+1. Create a free account at [ExchangeRate API](https://www.exchangerate-api.com/)
+2. Get an API key from [GoldAPI](https://www.goldapi.io/)
+3. Add your API keys to your `.env` file:
+```env
+EXCHANGE_RATE_API_KEY=your_key_here
+GOLD_API_KEY=your_key_here
+```
+
+Example Output:
+```
+💶 EUR Exchange Rate
+1 EUR = $1.0850
+Last update: 6 February 2024, 15:30 UTC
+
+🏆 Gold Price
+Per ounce: $2,025.30
+Per gram: $65.12
+Last update: 6 February 2024, 15:30 UTC
+
+₿ BTC Exchange Rate
+1 BTC = $42,567.89
+Last update: 6 February 2024, 15:30 UTC
+```
+
+![Currency Commands](https://github.com/user-attachments/assets/6bc48f94-3487-4cb1-b71f-4c51130bed2d)
+
 ## Add the Bot to Your Server
 
 Want to add **Discord Multi Bot** to your server? Click the link below and grant the necessary permissions:
