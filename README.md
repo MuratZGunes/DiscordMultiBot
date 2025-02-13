@@ -337,7 +337,7 @@ GEMINI_AI_API_KEY=your_gemini_api_key_here
 
 Want to add **Discord Multi Bot** to your server? Click the link below and grant the necessary permissions:
 
-[Add to Discord](https://discord.com/oauth2/authorize?client_id=1334217291679924245&permissions=8&integration_type=0&scope=bot)
+[Add to Discord](https://discord.com/oauth2/authorize?client_id=1334217291679924245&permissions=8&integration_type=0&scope=bot+applications.commands)
 
 ## License
 
